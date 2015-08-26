@@ -92,7 +92,7 @@ $(document).ready(function(){
 // ***********************************
 // Backstretch - Slider on Background
 //
-//  Note :  make sure  use this  http://bootstrapwizard.info/Theme/Fullscreen/images/bg4.jpg"  when on server  but you can simply use  "images/bg1.jpg"  if you are on localhost
+//  Note :  make sure to use "LINK" when on server but use  "images/bg1.jpg"  if on localhost
 //
 // ***********************************								  
 			 
@@ -140,8 +140,8 @@ $(document).ready(function(){
 $(document).ready(function( $ ) {
 	if($("span.count").length > 0){	
 		$('span.count').counterUp({
-			delay: 10, // the delay time in ms
-			time: 1000 // the speed time in ms
+			delay: 10, // the delay time
+			time: 1000 // the speed time
 		});
 	}
 });

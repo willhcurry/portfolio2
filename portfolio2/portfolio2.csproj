@@ -119,9 +119,6 @@
     <Content Include="images\img2.jpg" />
     <Content Include="images\img3.jpg" />
     <Content Include="images\img4.jpg" />
-    <Content Include="images\img5.jpg" />
-    <Content Include="images\img6.jpg" />
-    <Content Include="images\img7.jpg" />
     <Content Include="images\img8.jpg" />
     <Content Include="images\laptop.png" />
     <Content Include="images\loading.gif" />
@@ -179,6 +176,12 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="css\bootstrap-theme.css.map" />
     <Content Include="css\bootstrap.css.map" />
+    <Content Include="js\bootstrap\bootstrap.min.js.map">
+      <DependentUpon>bootstrap.min.js</DependentUpon>
+    </Content>
+    <Content Include="js\bootstrap.min.js.map">
+      <DependentUpon>bootstrap.min.js</DependentUpon>
+    </Content>
     <None Include="Properties\PublishProfiles\willhcurry - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\willhcurry - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">

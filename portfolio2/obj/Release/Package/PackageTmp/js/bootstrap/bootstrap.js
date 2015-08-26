@@ -1493,7 +1493,7 @@ if (typeof jQuery === 'undefined') {
         complete()
     }
   }
-
+    
   Tooltip.prototype.applyPlacement = function (offset, placement) {
     var $tip   = this.tip()
     var width  = $tip[0].offsetWidth
